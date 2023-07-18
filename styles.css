@@ -1,0 +1,48 @@
+body{
+   
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.cont-2{
+    width: 410px;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.wrap{
+    width: 100px;
+    height: 100px;
+}
+
+.box-1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(146, 153, 146);
+    border: 1px solid rgb(247, 240, 240);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: white;
+}
+.box-2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border:1px solid yellowgreen ;
+    position: absolute;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
